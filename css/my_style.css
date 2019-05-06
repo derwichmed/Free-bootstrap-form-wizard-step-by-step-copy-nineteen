@@ -1,0 +1,189 @@
+body{
+    background-image: url('../img/6.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.form_wizard{
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+.form_wizard > div[class*=col-]{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px
+}
+.form_wizard header[class*=container]{
+    padding: 0px
+}
+.form_wizard header .desc{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.form_wizard header .desc em{
+    color: #252422;
+    font-weight: 300;
+    font-size: 1.825em;
+    line-height: 1.4;
+    font-family: 'Muli', 'Helvetica', Arial, sans-serif;
+    color: black
+}
+.form_wizard header .desc span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    line-height: 1.4em;
+    font-family: 'Muli', 'Helvetica', Arial, sans-serif;
+}
+.form_wizard header .steps_liste_view{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px
+}
+.form_wizard header .progress_steps > div{
+    position: relative
+}
+.form_wizard header .progress{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    top: 32px;
+}
+.form_wizard header .progress .progress-bar{
+    background-color: skyblue;
+}
+.form_wizard header .steps_liste_view .item .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: block;
+    margin: auto
+}
+.form_wizard header .steps_liste_view .item .icon img{
+    width: 35px;
+    height: 45px;
+    display: block;
+    margin: auto;
+    padding-top: 15px
+}
+.form_wizard header .steps_liste_view .item .desc{
+    text-align: center
+}
+.form_wizard header .steps_liste_view .active .icon{
+    background-color: white;
+    border: skyblue 3px solid
+}
+.form_wizard header .steps_liste_view .loding .icon{
+    background-color: skyblue;
+    border: skyblue 3px solid
+}
+.form_wizard header .steps_liste_view .disable .icon{
+    border: #cccccc 3px solid;
+    background-color: white
+}
+.form_wizard header .steps_liste_view .active .label,
+.form_wizard header .steps_liste_view .disable .label
+{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: 'Muli', 'Helvetica', Arial, sans-serif;
+    line-height: 1.42857143;
+    font-size: 14px;
+}
+.form_wizard header .steps_liste_view .loding .label{
+    text-align: center;
+    color: skyblue;
+    font-family: 'Muli', 'Helvetica', Arial, sans-serif;
+    line-height: 1.42857143;
+    font-size: 16px;
+}
+.form_wizard section{
+    padding-top: 150px
+}
+.form_wizard section .form_item .form_desc p{
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.4em;
+    font-family: 'Muli', 'Helvetica', Arial, sans-serif;
+    color: black
+}
+.form_wizard section .form_item .form_body {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px
+}
+.form_wizard section .form_item .form_body label{
+    font-weight: bold;
+    color: #252422;
+    font-size: 14px;
+    font-family: 'Muli', Arial, sans-serif;
+}
+.form_wizard section .form_item .form_body .form-control{
+    background-color: #f2f3ed;
+    margin-bottom: 15px
+}
+.form_wizard section .form_about .form_body .label_user_pecture input[type=file]{
+    display: none
+}
+.form_wizard section .form_about .form_body .label_user_pecture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #d7d2c6;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer
+}
+.form_wizard section .form_about .form_body .label_user_pecture:hover{
+    border: skyblue 3px solid
+}
+.form_wizard section .form_about .form_body .label_user_pecture img{
+    width: 100%;
+    height: 100%
+}
+.form_wizard footer > div > div{
+    padding: 15px
+}
+.form_wizard footer input{
+    width: 150px;
+    height: 45px;
+    border-radius: 100px
+}
+.form_wizard footer .btn_pre{
+    color: #66625b;
+    font-weight: bold;
+    border: #66625b 2px solid;
+    background-color: white
+}
+.form_wizard footer .btn_nxt{
+    color: white;
+    font-weight: bold;
+    border: skyblue 2px solid;
+    background-color: skyblue
+}
+.form_wizard section .form_job .job_item{
+    width: 150px;
+    height: 100px;
+    border-radius: 3px;
+    background-color: #f2f3ed;
+    text-align: center;
+    color: #a9a9a5;
+    margin: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.form_wizard section .form_job .job_item:hover{
+    border: 2px skyblue solid;
+    color: skyblue
+}
+.form_wizard section .form_job .job_item img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 10px
+}
